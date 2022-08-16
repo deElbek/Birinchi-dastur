@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header {
+  height: 300px;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 850px 350px;
+  align-items: center;
+  grid-gap: 50px;
+  justify-content: center;
+  border-bottom: 2px dashed #000;
+}
+.header .img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header .img img {
+  width: 20%;
+}
+
+.object {
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 100px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 500px 550px;
+  grid-gap: -50px;
+  justify-content: space-around;
+  border-bottom: 2px dashed #000;
+}
+.object .button button {
+  background: #000;
+  color: #fff;
+  height: 35px;
+  font-size: 20px;
+  width: 20%;
+}
+.object .p p {
+  padding-right: 150px;
+}
+
+.ipno {
+  display: grid;
+  grid-template-columns: 200px 400px;
+  grid-gap: 50px;
+  justify-content: space-evenly;
+  height: 500px;
+  border-bottom: 2px dashed #000;
+}
+.ipno .exprience {
+  margin-left: -50px;
+}
+.ipno .exprience .btn {
+  padding-top: 50px;
+}
+.ipno .exprience .btn button {
+  background: #000;
+  color: #fff;
+  height: 35px;
+  width: 42%;
+  font-size: 18px;
+  cursor: pointer;
+}
+.ipno .exprience .btn p {
+  padding-top: 50px;
+}
+.ipno .exprience .btn .p {
+  padding-top: 160px;
+}
+.ipno .design {
+  padding-top: 50px;
+}
+.ipno .design h3 {
+  padding-top: 40px;
+  font-size: 30px;
+}
+.ipno .design p {
+  padding-top: 10px;
+}
+
+.education {
+  display: grid;
+  grid-template-columns: 130px 480px;
+  padding-top: 40px;
+  grid-gap: 40px;
+  justify-content: space-around;
+  padding-left: 45px;
+  border-bottom: 2px dashed #000;
+  height: 300px;
+}
+.education .feb button {
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  height: 35px;
+  width: 70%;
+}
+.education .feb p {
+  font-size: 17px;
+  padding-top: 60px;
+}
+.education .grafic {
+  padding-top: 80px;
+}
+
+.skills {
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 150px 50px 350px;
+  justify-content: space-around;
+  grid-gap: 0px;
+  margin-left: 90px;
+  height: 500px;
+}
+.skills .skill button {
+  background: #000;
+  width: 70%;
+  height: 30px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.skills .skill .p p {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 18px;
+}
+.skills .skill .p p i {
+  margin-left: -20px;
+}
+.skills .languages button {
+  background: #000;
+  width: 220%;
+  height: 30px;
+  font-size: 19px;
+  color: #fff;
+  cursor: pointer;
+}
+.skills .languages h3 {
+  padding-top: 40px;
+}
+.skills .languages p {
+  padding-top: 5px;
+}
+.skills .referesh button {
+  background: #000;
+  width: 35%;
+  height: 30px;
+  font-size: 19px;
+  color: #fff;
+  cursor: pointer;
+}
+.skills .referesh h4 {
+  padding-top: 50px;
+}/*# sourceMappingURL=style.css.map */

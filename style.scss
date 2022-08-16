@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@mixin df($ai, $jc){
+    display: flex;
+    align-items: $ai;
+    justify-content: $jc;
+}
+
+.header{
+    height: 300px;
+    padding-top: 50px; 
+    display: grid;
+    grid-template-columns: 850px 350px;
+    align-items: center;
+    grid-gap: 50px;
+    justify-content: center;
+    border-bottom: 2px dashed #000;
+    .img{
+        @include df(center, flex-start);
+        img{
+            width: 20%;
+        }
+    }
+}
+.object{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 100px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 500px 550px;
+    grid-gap: -50px;
+    justify-content: space-around;
+    border-bottom: 2px dashed #000;
+    .button{
+        button{
+            background: #000;
+            color: #fff;
+            height: 35px;
+            font-size: 20px;
+            width: 20%;
+        }
+    }
+    .p{
+       p{
+        padding-right: 150px;
+       }
+    }
+}
+.ipno{
+    display: grid;
+    grid-template-columns: 200px 400px  ;
+    grid-gap: 50px;
+    justify-content: space-evenly;
+    height: 500px;
+    border-bottom: 2px dashed #000;
+    .exprience{
+        margin-left: -50px;
+       .btn{
+        padding-top: 50px; 
+          button{
+                 background: #000;
+                 color: #fff;
+                 height: 35px;
+                 width: 42%;
+                 font-size: 18px;
+                 cursor: pointer;
+             }
+          p{
+             padding-top: 50px;
+          }
+          .p{
+              padding-top: 160px;
+          }
+      }
+    }
+    .design{
+        padding-top: 50px;
+        h3{
+            padding-top: 40px;
+            font-size: 30px;
+        }
+        p{
+            padding-top: 10px;
+        }
+    }
+}
+.education{
+    display: grid;
+    grid-template-columns: 130px 480px;
+    padding-top: 40px;
+    grid-gap: 40px;
+    justify-content: space-around;
+    padding-left: 45px;
+    border-bottom: 2px dashed #000;
+    height: 300px;
+    .feb{
+       button{
+            background: #000;
+            color: #fff;
+            font-size: 18px;
+            height: 35px;
+            width: 70%;
+       }
+       p{
+        font-size: 17px;
+        padding-top: 60px;
+    }
+    }
+    .grafic{
+        padding-top: 80px;
+    }
+} 
+.skills{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 150px 50px 350px;
+    justify-content: space-around;
+    grid-gap: 0px;
+    margin-left: 90px;
+    height: 500px;
+    .skill{
+        button{
+            background: #000;
+            width: 70%;
+            height: 30px;
+            font-size: 20px;
+            color: #fff;
+            cursor: pointer;
+        }
+      .p{
+          p{
+            padding-left: 20px;
+            padding-top: 20px;
+            font-size: 18px;
+            i{
+                margin-left: -20px;
+               }
+          }
+        
+      }
+     
+    }
+    .languages{
+            button{
+                background: #000;
+                width: 220%;
+                height: 30px;
+                font-size: 19px;
+                color: #fff;
+                cursor: pointer;
+        }
+        h3{
+            padding-top: 40px;
+        }
+        p{
+            padding-top: 5px;
+        }
+    }
+    .referesh{
+        button{
+            background: #000;
+            width: 35%;
+            height: 30px;
+            font-size: 19px;
+            color: #fff;
+            cursor: pointer;
+        }
+        h4{
+            padding-top: 50px;
+        }
+    }
+}  
